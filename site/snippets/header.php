@@ -9,16 +9,16 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
-  <?php echo css('assets/css/normalize.css') ?>
-  <?php echo css('assets/css/skeleton.css') ?>
-  <?php echo css('assets/css/main.css') ?>
+  <?php echo css('assets/build/css/style.css') ?>
 
 </head>
 <body>
 
-  <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
-    <?php snippet('menu') ?>
+  <header class="header" role="banner">
+    <div class="max-width-4 mx-auto">
+<!--      <a class="logo" href="--><?php //echo url() ?><!--">-->
+<!--        <img src="--><?php //echo url('assets/images/logo.svg') ?><!--" alt="--><?php //echo $site->title()->html() ?><!--" />-->
+<!--      </a>-->
+      <?php snippet('menu') ?>
+    </div>
   </header>

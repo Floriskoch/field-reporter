@@ -1,11 +1,9 @@
-  <footer class="footer cf" role="contentinfo">
+  <footer class="footer" role="contentinfo">
 
-    <div class="copyright">
-      <?php echo $site->copyright()->kirbytext() ?>
-    </div>
-
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
+    <div class="max-width-4 mx-auto">
+      <div class="copyright">
+        <?php echo $site->copyright()->kirbytext() ?>
+      </div>
     </div>
 
   </footer>

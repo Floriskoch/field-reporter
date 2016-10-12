@@ -1,16 +1,8 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-  <main class="main" role="main">
-
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
-
-    <hr>
-
-    <?php snippet('projects') ?>
-
-  </main>
-
-<?php snippet('footer') ?>
+<main role="main">
+  <?php foreach(page('home')->children() as $content) {
+    snippet($content->intendedTemplate(), array('content' => $content));
+  } ?>
+</main>
+<?php snippet('footer'); ?>
