@@ -3,4 +3,11 @@
 @import "vendor/normalize";
 @import "vendor/basscss";
 
+@import "base/base";
+@import "base/fonts";
+
 @import "components/menu";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sections";

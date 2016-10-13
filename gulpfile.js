@@ -117,7 +117,7 @@ gulp.task('styles', function() {
 
 gulp.task('browser-sync', function() {
   browserSync({
-    // proxy: 'local.dev',
+    proxy: 'field-reporter.dev',
     browser: 'google chrome'
   });
 });

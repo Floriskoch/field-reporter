@@ -1,0 +1,37 @@
+$dir: '../../fonts/';
+
+@font-face {
+  font-family: 'questa_sansregular';
+  src: url('#{$dir}2-Questa_Sans_Regular-webfont.eot');
+  src: url('#{$dir}2-Questa_Sans_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$dir}2-Questa_Sans_Regular-webfont.woff2') format('woff2'),
+  url('#{$dir}2-Questa_Sans_Regular-webfont.woff') format('woff'),
+  url('#{$dir}2-Questa_Sans_Regular-webfont.ttf') format('truetype'),
+  url('#{$dir}2-Questa_Sans_Regular-webfont.svg#questa_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'questa_slabregular';
+  src: url('#{$dir}2_questa_slab_regular_25-webfont.eot');
+  src: url('#{$dir}2_questa_slab_regular_25-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$dir}2_questa_slab_regular_25-webfont.woff2') format('woff2'),
+  url('#{$dir}2_questa_slab_regular_25-webfont.woff') format('woff'),
+  url('#{$dir}2_questa_slab_regular_25-webfont.ttf') format('truetype'),
+  url('#{$dir}2_questa_slab_regular_25-webfont.svg#questa_slabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'questa_sansbold';
+  src: url('#{$dir}4-Questa_Sans_Bold-webfont.eot');
+  src: url('#{$dir}4-Questa_Sans_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$dir}4-Questa_Sans_Bold-webfont.woff2') format('woff2'),
+  url('#{$dir}4-Questa_Sans_Bold-webfont.woff') format('woff'),
+  url('#{$dir}4-Questa_Sans_Bold-webfont.ttf') format('truetype'),
+  url('#{$dir}4-Questa_Sans_Bold-webfont.svg#questa_sansbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,8 +1,8 @@
 <nav role="navigation">
 
-  <ul class="list-reset">
+  <ul class="list-reset my0 right">
     <?php foreach($pages->visible() as $p): ?>
-    <li class="inline-block mr1 <?php e($p->isOpen(), ' active') ?>">
+    <li class="inline-block ml4 <?php e($p->isOpen(), ' active') ?>">
       <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 
       <?php if($p->hasVisibleChildren()): ?>

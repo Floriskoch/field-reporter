@@ -1,8 +1,8 @@
 <?php snippet('header'); ?>
 
 <main role="main">
-  <?php foreach(page('home')->children() as $content) {
-    snippet($content->intendedTemplate(), array('content' => $content));
-  } ?>
+  <?php foreach($page->children()->visible() as $section): ?>
+    <?php snippet('home.' . $section->uid(), array('data' => $section)) ?>
+  <?php endforeach ?>
 </main>
 <?php snippet('footer'); ?>
