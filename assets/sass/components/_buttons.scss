@@ -2,6 +2,7 @@
   background-color: transparent;
   border: none;
   padding: 0;
+  text-decoration: none;
 
   &:focus,
   &:active {
@@ -30,6 +31,15 @@
     &:hover {
       color: $green;
     }
+  }
+
+  &.btn--cta {
+    background-color: $green;
+    border-radius: 40px;
+    color: $white;
+    padding: 10px 25px;
+    text-transform: lowercase;
+    font-variant: small-caps;
   }
 }
 

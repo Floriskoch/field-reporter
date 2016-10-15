@@ -17,6 +17,9 @@
 
     </li>
     <?php endforeach ?>
+    <li class="inline-block ml4">
+      <a href="" class="btn btn--cta bold">Request a demo</a>
+    </li>
   </ul>
 
 </nav>
