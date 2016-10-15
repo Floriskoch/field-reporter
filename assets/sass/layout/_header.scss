@@ -1,30 +1,14 @@
 header {
-  line-height: 120px;
+
+  .wrap {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+  }
 
   nav {
+    margin-left: auto;
 
-    a {
-      font-family: $boldFontFamily;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: $black;
-      position: relative;
-      transition: color .2s ease;
-
-      &:after {
-        content: '';
-        position: absolute;
-        height: 2px;
-        width: 100%;
-        left: 0;
-        bottom: -2px;
-        background-color: $green;
-      }
-
-      &:hover {
-        color: $green;
-      }
-    }
   }
 }
 

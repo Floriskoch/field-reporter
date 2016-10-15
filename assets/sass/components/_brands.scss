@@ -1,0 +1,14 @@
+.brands {
+  flex-direction: row;
+}
+
+.brands__item {
+
+  @media (min-width: 40em) {
+    width: 33.3333333%;
+  }
+
+  @media (min-width: 52em) {
+    width: 20%;
+  }
+}

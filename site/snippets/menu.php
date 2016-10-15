@@ -3,7 +3,7 @@
   <ul class="list-reset my0 right">
     <?php foreach($pages->visible() as $p): ?>
     <li class="inline-block ml4 <?php e($p->isOpen(), ' active') ?>">
-      <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+      <a class="btn btn--primary bold" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 
       <?php if($p->hasVisibleChildren()): ?>
       <ul class="submenu">

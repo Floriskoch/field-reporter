@@ -14,7 +14,7 @@ Covervideourl:
 
 ----
 
-Coverimage: tracks.jpg
+Coverimage: hero_tmp.jpg
 
 ----
 

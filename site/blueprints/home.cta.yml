@@ -1,0 +1,14 @@
+title: Home CTA
+pages: false
+files: true
+fields:
+  heading:
+    label: Heading
+    type: text
+  input:
+    label: Input placeholder
+    type: text
+  button:
+    label: Button placeholder
+    type: text
+

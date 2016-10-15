@@ -1,13 +1,14 @@
-  <footer class="footer clearfix pt4 pb1" role="contentinfo">
+  <footer class="footer clearfix py1" role="contentinfo">
 
     <div class="max-width-2 mx-auto center">
       <div class="copyright">
-        <?php echo $site->copyright()->kirbytext() ?>
-        <p>&copy; <?php echo date("Y") ?> Field Reporter</p>
+        <p>&copy; <?php echo date("Y") ?> Field Reporter &#9679; <a href="mailto: info@fieldreporter.nl" class="btn btn--primary">info@fieldreporter.nl</a></p>
       </div>
     </div>
 
   </footer>
+
+  <?php echo js('assets/build/js/app.js') ?>
 
 </body>
 </html>

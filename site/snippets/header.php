@@ -12,11 +12,11 @@
   <?php echo css('assets/build/css/style.css') ?>
 
 </head>
-<body>
+<body class="bg-texture-white">
 
   <header class="header clearfix" role="banner">
-    <div class="max-width-4 mx-auto px2">
-      <a class="left" href="<?php echo url() ?>">
+    <div class="wrap max-width-4 mx-auto px2">
+      <a class="logo" href="<?php echo url() ?>">
         <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       </a>
       <?php snippet('menu') ?>

@@ -3,3 +3,30 @@ Title: Clients
 ----
 
 Text: 
+
+----
+
+Heading: Quotes heading ..
+
+----
+
+Logos: krakeling_logo_jouw_theater.jpg,logo_opzienbarend.png,nederland-circulaire-hotspot_logo_eng_met-fonts.png
+
+----
+
+Quotes: 
+
+- 
+  text: >
+    The best preparation for tomorrow is
+    doing your best today.
+  author: H. Jackson Brown, Jr.
+  company: Company
+- 
+  text: "Nothing is impossible, the word itself says 'I'm possible'!"
+  author: Audrey Hepburn
+  company: ---
+- 
+  text: "I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.'"
+  author: Muhammad Ali
+  company: ---

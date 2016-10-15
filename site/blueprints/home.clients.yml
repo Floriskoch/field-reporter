@@ -1,0 +1,33 @@
+title: Home Intro
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type: text
+  heading:
+    label: Heading
+    type: text
+  quotes:
+      label: Quotes
+      type: structure
+      entry: >
+        {{text}}<br />
+        {{author}}<br />
+        {{company}}
+      fields:
+        text:
+          label: Text
+          type: text
+        author:
+          label: Author
+          type: text
+        company:
+          label: Company
+          type: text
+  logos:
+      label: Logos
+      type: selector
+      mode: multiple
+      types:
+        - image

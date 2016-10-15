@@ -1,0 +1,24 @@
+title: Home What does it do?
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type: text
+  blocks:
+      label: Blocks
+      type: structure
+      entry: >
+        {{image}}<br />
+        {{heading}}<br />
+        {{text}}
+      fields:
+        image:
+          label: Image
+          type: image
+        heading:
+          label: Heading
+          type: text
+        text:
+          label: Text
+          type: textarea

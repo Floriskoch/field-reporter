@@ -3,3 +3,59 @@ Title: What does it do?
 ----
 
 Text: 
+
+----
+
+Blocks: 
+
+- 
+  image: whatdoesitdo.png
+  heading: heading1
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Phasellus hendrerit
+    metus faucibus efficitur tempus. Sed et
+    cursus erat, eu pharetra nibh.
+    Pellentesque a scelerisque elit. Duis
+    ullamcorper, lorem quis sagittis
+    ultrices, sapien orci tempor velit, in
+    imperdiet risus tellus sed enim.
+- 
+  image: whatdoesitdo.png
+  heading: heading 2
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Aliquam elementum, orci
+    in ornare rhoncus, augue massa venenatis
+    metus, vitae rutrum lacus risus at
+    dolor. Curabitur pharetra faucibus velit
+    eget volutpat. Aliquam placerat eleifend
+    porttitor. Maecenas risus neque,
+    lobortis a neque venenatis, rutrum
+    semper arcu. Quisque eu leo purus.
+- 
+  image: whatdoesitdo.png
+  heading: heading 3
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Aliquam elementum, orci
+    in ornare rhoncus, augue massa venenatis
+    metus, vitae rutrum lacus risus at
+    dolor. Curabitur pharetra faucibus velit
+    eget volutpat. Aliquam placerat eleifend
+    porttitor. Maecenas risus neque,
+    lobortis a neque venenatis, rutrum
+    semper arcu. Quisque eu leo purus.
+- 
+  image: whatdoesitdo.png
+  heading: heading 4
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Aliquam elementum, orci
+    in ornare rhoncus, augue massa venenatis
+    metus, vitae rutrum lacus risus at
+    dolor. Curabitur pharetra faucibus velit
+    eget volutpat. Aliquam placerat eleifend
+    porttitor. Maecenas risus neque,
+    lobortis a neque venenatis, rutrum
+    semper arcu. Quisque eu leo purus.

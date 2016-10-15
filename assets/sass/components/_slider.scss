@@ -1,0 +1,20 @@
+.slider-item {
+  width: 100%;
+}
+
+.slider-item__quote {
+  font-size: 1.4rem;
+}
+
+.slider-item__author {
+  font-family: $boldFontFamily;
+}
+
+.slider-item__author,
+.slider-item__company {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  color: $green;
+  font-size: 1.2rem;
+  display: inline-block;
+}

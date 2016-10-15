@@ -1,0 +1,40 @@
+title: Home Products
+pages: false
+files: true
+fields:
+  heading:
+    label: Heading
+    type: text
+  productImage1:
+    label: Product 1 image
+    type: image
+    width: 1/2
+  productImage2:
+    label: Product 2 image
+    type: image
+    width: 1/2
+  productText1:
+    label: Product 1 text
+    type: textarea
+    width: 1/2
+  productText2:
+    label: Product 2 text
+    type: textarea
+    width: 1/2
+  productButton1:
+    label: Product 1 button text
+    type: text
+    width: 1/2
+  productButton2:
+    label: Product 2 button text
+    type: text
+    width: 1/2
+  productUrl1:
+    label: Product 1 url
+    type: text
+    width: 1/2
+  productUrl2:
+    label: Product 2 url
+    type: text
+    width: 1/2
+

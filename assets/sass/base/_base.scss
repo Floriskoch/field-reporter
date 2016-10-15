@@ -1,3 +1,15 @@
+html {
+  font-size: 16px;
+
+  @media (min-width: 1280px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1920px) {
+    font-size: 22px;
+  }
+}
+
 body {
   font-family: $baseFontFamily;
   color: $black;
@@ -7,3 +19,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headingFontFamily;
 }
 
+img {
+  max-width: 100%;
+}

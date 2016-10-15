@@ -3,3 +3,39 @@ Title: Products
 ----
 
 Text: 
+
+----
+
+Productimage1: whatdoesitdo.png
+
+----
+
+Productimage2: whatdoesitdo.png
+
+----
+
+Producttext1: Curabitur tincidunt turpis non est malesuada mollis. Nunc accumsan, massa mollis sollicitudin aliquam, tellus lorem tincidunt diam, eget mollis mauris elit ornare felis. Aenean at mauris vitae tortor accumsan placerat. Nunc posuere sem ac lobortis commodo. Nullam ac euismod velit.
+
+----
+
+Producttext2: Curabitur tincidunt turpis non est malesuada mollis. Nunc accumsan, massa mollis sollicitudin aliquam, tellus lorem tincidunt diam, eget mollis mauris elit ornare felis. Aenean at mauris vitae tortor accumsan placerat. Nunc posuere sem ac lobortis commodo. Nullam ac euismod velit.
+
+----
+
+Productbutton1: Read more
+
+----
+
+Productbutton2: Read more
+
+----
+
+Producturl1: /for-teams
+
+----
+
+Producturl2: /showcase
+
+----
+
+Heading: Our products
