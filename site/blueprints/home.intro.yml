@@ -8,23 +8,9 @@ fields:
   heading:
     label: Heading
     type: text
-  coverVideoUrl:
-    label: Cover Video URL
-    type: text
   coverImage:
     label: Cover Image
     type: selector
     mode: single
     types:
       - image
-  text:
-    label: Text
-    type: textarea
-  btnLink:
-    label: Button Link
-    type: page
-    width: 1/2
-  btnText:
-    label: Button Text
-    type: text
-    width: 1/2

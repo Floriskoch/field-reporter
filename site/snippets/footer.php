@@ -8,7 +8,7 @@
 
   </footer>
 
-  <?php echo js('assets/build/js/app.js') ?>
+  <?php echo js('assets/build/js/dist/app.min.js') ?>
 
 </body>
 </html>

@@ -1,5 +1,6 @@
 var Flickity = require('flickity');
 var ScrollReveal = require('scrollreveal');
+var h = require('./helpers');
 
 //------------------------------------//
 // HOMEPAGE
@@ -22,3 +23,13 @@ var flkty = new Flickity(container, {
 // Initialize ScrollReveal
 window.sr = ScrollReveal();
 sr.reveal('.section--what-does-it-do img', { viewOffset: { bottom: 100 } });
+
+// Header
+var header = document.querySelector('header');
+window.addEventListener('scroll', h.throttle( function() {
+  if (window.scrollY >= 300) {
+    header.classList.add('has-scrolled')
+  } else {
+    header.classList.remove('has-scrolled')
+  }
+}, 100));
