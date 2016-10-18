@@ -4,40 +4,41 @@ var h = require('./helpers');
 var Flickity = require('flickity');
 var ScrollReveal = require('scrollreveal');
 var Headroom = require('headroom.js');
+var SmoothScroll = require('smooth-scroll');
+
+// Elements
+var body = document.querySelector('body');
 
 
 //------------------------------------//
 // HOMEPAGE
 //------------------------------------//
 
-// Initialize Flickity
-// http://flickity.metafizzy.co/
-var container = document.querySelector('.js-slider');
-var flkty = new Flickity(container, {
-  pageDots: false,
-  wrapAround: true,
-  autoPlay: 5000,
-  prevNextButtons: false,
-  selectedAttraction: 0.1,
-  adaptiveHeight: true,
-  friction: 0.8,
-  cellSelector: '.js-slider-item'
-});
+if (body.classList.contains('home')) {
 
-// Initialize ScrollReveal
-window.sr = ScrollReveal();
-sr.reveal('.section--what-does-it-do img', { viewOffset: { bottom: 100 } });
+  // Initialize Flickity
+  // http://flickity.metafizzy.co/
+  var container = document.querySelector('.js-slider');
+  var flkty = new Flickity(container, {
+    pageDots: false,
+    wrapAround: true,
+    autoPlay: 5000,
+    prevNextButtons: false,
+    selectedAttraction: 0.1,
+    adaptiveHeight: true,
+    friction: 0.8,
+    cellSelector: '.js-slider-item'
+  });
 
-// Header
-/*
-var header = document.querySelector('header');
-window.addEventListener('scroll', h.throttle( function() {
-  if (window.scrollY >= 300) {
-    header.classList.add('has-scrolled')
-  } else {
-    header.classList.remove('has-scrolled')
-  }
-}, 100));*/
+  // Initialize ScrollReveal
+  window.sr = ScrollReveal();
+  sr.reveal('.section--what-does-it-do img', { viewOffset: { bottom: 100 } });
+}
+
+
+//------------------------------------//
+// GENERAL
+//------------------------------------//
 
 // Sticky header
 var header = document.querySelector('header');
@@ -45,9 +46,9 @@ var headroom  = new Headroom(header, {
   offset: 100,
   tolerance: 5
 });
-
-
-
 headroom.init();
 
-console.log(headroom);
+// Smooth scroll
+SmoothScroll.init({
+  easing: 'easeInQuart'
+});

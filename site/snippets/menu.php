@@ -18,7 +18,7 @@
     </li>
     <?php endforeach ?>
     <li class="inline-block ml4">
-      <a href="" class="btn btn--cta bold">Request a demo</a>
+      <a href="<?php e(!$page->isHomepage(), url()) ?>#section-demo" class="btn btn--cta bold" data-scroll>Request a demo</a>
     </li>
   </ul>
 

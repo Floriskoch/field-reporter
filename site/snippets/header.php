@@ -12,7 +12,7 @@
   <?php echo css('assets/build/css/style.css') ?>
 
 </head>
-<body class="bg-texture-white">
+<body class="bg-texture-white <?php echo $page->template() ?>">
 
   <header class="header clearfix" role="banner">
     <div class="wrap max-width-4 mx-auto px2">
