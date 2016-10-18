@@ -1,6 +1,10 @@
+var h = require('./helpers');
+
+// Libraries
 var Flickity = require('flickity');
 var ScrollReveal = require('scrollreveal');
-var h = require('./helpers');
+var Headroom = require('headroom.js');
+
 
 //------------------------------------//
 // HOMEPAGE
@@ -25,6 +29,7 @@ window.sr = ScrollReveal();
 sr.reveal('.section--what-does-it-do img', { viewOffset: { bottom: 100 } });
 
 // Header
+/*
 var header = document.querySelector('header');
 window.addEventListener('scroll', h.throttle( function() {
   if (window.scrollY >= 300) {
@@ -32,4 +37,17 @@ window.addEventListener('scroll', h.throttle( function() {
   } else {
     header.classList.remove('has-scrolled')
   }
-}, 100));
+}, 100));*/
+
+// Sticky header
+var header = document.querySelector('header');
+var headroom  = new Headroom(header, {
+  offset: 100,
+  tolerance: 5
+});
+
+
+
+headroom.init();
+
+console.log(headroom);
