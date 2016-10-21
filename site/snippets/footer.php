@@ -1,8 +1,8 @@
-  <footer class="footer clearfix py1" role="contentinfo">
+  <footer class="footer clearfix py1 bg-texture-green" role="contentinfo">
 
     <div class="max-width-2 mx-auto center">
       <div class="copyright">
-        <p>&copy; <?php echo date("Y") ?> Field Reporter &#9679; <a href="mailto: info@fieldreporter.nl" class="btn btn--primary">info@fieldreporter.nl</a></p>
+        <p>&copy; <?php echo date("Y") ?> Field Reporter <span class="bullet">&#9679;</span> <a href="mailto: info@fieldreporter.nl" class="btn btn--primary">info@fieldreporter.nl</a></p>
       </div>
     </div>
 

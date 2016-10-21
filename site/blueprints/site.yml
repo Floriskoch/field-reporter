@@ -16,3 +16,7 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+  logo:
+    label: Logo
+    type: image
+

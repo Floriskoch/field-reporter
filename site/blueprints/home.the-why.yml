@@ -1,0 +1,13 @@
+title: Home The Why
+pages: false
+files: true
+fields:
+  heading:
+    label: Heading
+    type: text
+  textarea:
+    label: Text
+    type: textarea
+  button:
+    label: Button placeholder
+    type: text

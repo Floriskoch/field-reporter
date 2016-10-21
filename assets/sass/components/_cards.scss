@@ -15,4 +15,29 @@
       box-shadow: 0 0 1rem 0.2rem rgba($black, 0.4);
     }
   }
+
+  &.card--text {
+    position: relative;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      background: url('../../images/quote.svg') no-repeat;
+      width: 10rem;
+      height: 10rem;
+      z-index: -1;
+    }
+
+    &:before {
+      left: -4rem;
+      top: -4rem;
+    }
+
+    &:after {
+      right: -4rem;
+      bottom: -4rem;
+      transform: rotate(180deg);
+    }
+  }
 }

@@ -1,5 +1,14 @@
 footer {
-  background-color: $light-gray;
+  color: $white;
   font-variant: small-caps;
   text-transform: lowercase;
+
+  a {
+    color: $white !important;
+  }
+
+  .bullet {
+    font-size: 0.5rem;
+    vertical-align: middle;
+  }
 }

@@ -1,8 +1,11 @@
 <nav role="navigation">
 
   <ul class="list-reset my0 right">
+    <li class="inline-block ml4 xs-hide">
+      <a href="<?php e(!$page->isHomepage(), url()) ?>#section-products" class="btn btn--primary bold" data-scroll>Products</a>
+    </li>
     <?php foreach($pages->visible() as $p): ?>
-    <li class="inline-block ml4 <?php e($p->isOpen(), ' active') ?>">
+    <li class="inline-block ml4 xs-hide <?php e($p->isOpen(), ' active') ?>">
       <a class="btn btn--primary bold" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 
       <?php if($p->hasVisibleChildren()): ?>

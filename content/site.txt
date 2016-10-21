@@ -15,3 +15,7 @@ Keywords:
 ----
 
 Copyright: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida vehicula enim vel facilisis. Phasellus et massa quam. Pellentesque eu urna a massa maximus egestas in ut quam.
+
+----
+
+Logo: logo.svg

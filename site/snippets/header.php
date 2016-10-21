@@ -17,7 +17,8 @@
   <header class="header clearfix" role="banner">
     <div class="wrap max-width-4 mx-auto px2">
       <a class="logo" href="<?php echo url() ?>">
-        <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+        <?php $logo = $site->contentURL() . '/' . $site->logo() ?>
+        <img src="<?php echo ($logo) ? $logo : url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       </a>
       <?php snippet('menu') ?>
     </div>

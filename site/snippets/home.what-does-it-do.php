@@ -1,4 +1,4 @@
-<section class="section--<?php echo $data->uid() ?> py4 px2">
+<section class="section--<?php echo $data->uid() ?> py4 px2" id="section-what-does-it-do">
   <div class="max-width-4 mx-auto">
 
     <?php $i = 0; foreach($data->blocks()->toStructure() as $block) { ?>

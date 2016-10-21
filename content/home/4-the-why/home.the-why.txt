@@ -2,4 +2,22 @@ Title: The why
 
 ----
 
-Text: 
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non arcu vel ipsum posuere luctus. Donec semper, nibh nec lacinia lacinia, arcu purus porttitor odio, quis tincidunt neque nibh et libero. Vestibulum nec tristique leo. Donec malesuada vel nisl eget sodales. Praesent ac erat at ante tempor tristique vitae in dui. Cras hendrerit justo sit amet lectus condimentum, quis tempus ex viverra. Duis suscipit eros et ante blandit, ac faucibus erat pharetra. Aliquam ultrices, turpis et pulvinar feugiat, enim elit aliquet lorem, id tristique justo libero sit amet est. Mauris ut auctor dolor. Phasellus eget fermentum nibh. Vivamus pulvinar commodo pellentesque. Phasellus mollis lacus eu semper placerat. Suspendisse porttitor iaculis scelerisque. Fusce porta pulvinar orci eget varius. Praesent facilisis diam ligula, vel vulputate mauris porta non.
+
+----
+
+Heading: Everybody has a story to tell
+
+----
+
+Button: More about us
+
+----
+
+Textarea: 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non arcu vel ipsum posuere luctus. Donec semper, nibh nec lacinia lacinia, arcu purus porttitor odio, quis tincidunt neque nibh et libero. Vestibulum nec tristique leo. Donec malesuada vel nisl eget sodales. 
+
+Praesent ac erat at ante tempor tristique vitae in dui. Cras hendrerit justo sit amet lectus condimentum, quis tempus ex viverra. Duis suscipit eros et ante blandit, ac faucibus erat pharetra. Aliquam ultrices, turpis et pulvinar feugiat, enim elit aliquet lorem, id tristique justo libero sit amet est. Mauris ut auctor dolor. Phasellus eget fermentum nibh. Vivamus pulvinar commodo pellentesque. Phasellus mollis lacus eu semper placerat. Suspendisse porttitor iaculis scelerisque. 
+
+Fusce porta pulvinar orci eget varius. Praesent facilisis diam ligula, vel vulputate mauris porta non.
