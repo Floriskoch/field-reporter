@@ -1,3 +1,16 @@
+<?php
+
+if (isset($_POST['ctaEmail'])) {
+  $email = $_POST['ctaEmail'];
+  $status = 'subscribed'; // "subscribed" or "unsubscribed" or "cleaned" or "pending"
+  $list_id = '36025566f5';
+  $api_key = 'f3bd0ce5bd535cf7f587b3f4ac617bca-us14';
+  $merge_fields = array();
+
+  $response = mc_subscribe($email, $status, $list_id, $api_key, $merge_fields);
+}
+
+?>
 <section class="section--<?php echo $data->uid() ?> section--dark py8 px2 bg-texture-green" id="section-demo">
   <div class="max-width-3 mx-auto">
 
@@ -10,10 +23,14 @@
 
             <h3 class="mt0 mb2"><?php echo $data->heading()->text() ?></h3>
 
-            <form action="" class="md-flex items-center">
-              <input type="text" class="p1 flex-auto" placeholder="<?php echo $data->input()->text() ?>">
-              <button type="submit" class="ml2 btn btn--primary"><?php echo $data->button()->text() ?></button>
-            </form>
+            <?php if (!isset($response)) { ?>
+              <form action="" method="post" class="md-flex items-center">
+                <input type="email" class="p1 flex-auto" placeholder="<?php echo $data->input()->text() ?>" name="ctaEmail">
+                <button type="submit" class="ml2 btn btn--primary"><?php echo $data->button()->text() ?></button>
+              </form>
+            <?php } else { ?>
+              <p>Thanks for your request!</p>
+            <?php } ?>
 
           </div>
 

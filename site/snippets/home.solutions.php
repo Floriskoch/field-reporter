@@ -1,4 +1,4 @@
-<section class="section--<?php echo $data->uid() ?> section--dark py4 px2 bg-texture-green" id="section-products">
+<section class="section--<?php echo $data->uid() ?> section--dark py4 px2 bg-texture-green" id="section-solutions">
   <div class="max-width-4 mx-auto">
     <h2 class="mt0 mb4"><?php echo $data->heading()->text() ?></h2>
 

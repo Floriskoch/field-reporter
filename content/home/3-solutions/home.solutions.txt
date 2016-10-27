@@ -38,4 +38,4 @@ Producturl2: /showcase
 
 ----
 
-Heading: Our products
+Heading: Our solutions

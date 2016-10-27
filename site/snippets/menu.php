@@ -2,7 +2,7 @@
 
   <ul class="list-reset my0 right">
     <li class="inline-block ml4 xs-hide">
-      <a href="<?php e(!$page->isHomepage(), url()) ?>#section-products" class="btn btn--primary bold" data-scroll>Products</a>
+      <a href="<?php e(!$page->isHomepage(), url()) ?>#section-solutions" class="btn btn--primary bold" data-scroll>Solutions</a>
     </li>
     <?php foreach($pages->visible() as $p): ?>
     <li class="inline-block ml4 xs-hide <?php e($p->isOpen(), ' active') ?>">
