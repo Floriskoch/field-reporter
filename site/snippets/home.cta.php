@@ -29,7 +29,7 @@ if (isset($_POST['ctaEmail'])) {
                 <button type="submit" class="ml2 btn btn--primary"><?php echo $data->button()->text() ?></button>
               </form>
             <?php } else { ?>
-              <p>Thanks for your request!</p>
+              <p><?php echo $data->thankyou()->text() ?></p>
             <?php } ?>
 
           </div>

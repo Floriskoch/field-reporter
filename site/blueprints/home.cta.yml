@@ -11,4 +11,7 @@ fields:
   button:
     label: Button placeholder
     type: text
+  thankyou:
+    label: Thanks message
+    type: text
 
