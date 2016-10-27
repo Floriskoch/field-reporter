@@ -23,6 +23,9 @@
     <li class="inline-block ml4">
       <a href="<?php e(!$page->isHomepage(), url()) ?>#section-demo" class="btn btn--cta bold" data-scroll>Request a demo</a>
     </li>
+    <li class="inline-block ml4">
+      <a href="http://my.fieldreporter.nl" class="btn btn--secondary" data-scroll>Log in</a>
+    </li>
   </ul>
 
 </nav>
