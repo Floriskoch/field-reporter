@@ -24,8 +24,8 @@ if (isset($_POST['ctaEmail'])) {
             <h3 class="mt0 mb2"><?php echo $data->heading()->text() ?></h3>
 
             <?php if (!isset($response)) { ?>
-              <form action="" method="post" class="md-flex items-center">
-                <input type="email" class="p1 flex-auto" placeholder="<?php echo $data->input()->text() ?>" name="ctaEmail">
+              <form action="/#section-demo" method="post" class="md-flex items-center">
+                <input type="email" class="py1 px2 flex-auto" placeholder="<?php echo $data->input()->text() ?>" name="ctaEmail">
                 <button type="submit" class="ml2 btn btn--primary"><?php echo $data->button()->text() ?></button>
               </form>
             <?php } else { ?>

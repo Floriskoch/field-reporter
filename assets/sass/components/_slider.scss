@@ -3,17 +3,11 @@
 }
 
 .slider-item__quote {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
-.slider-item__author {
-  font-family: $boldFontFamily;
-}
-
-.slider-item__author,
-.slider-item__company {
+.slider-item__intro {
   font-variant: small-caps;
-  text-transform: lowercase;
   color: $green;
   font-size: 1.2rem;
   display: inline-block;

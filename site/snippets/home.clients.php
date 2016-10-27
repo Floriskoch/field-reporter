@@ -1,21 +1,27 @@
 <section class="section--<?php echo $data->uid() ?> py4 px2">
-  <div class="max-width-4 mx-auto">
+  <div class="max-width-2 mx-auto">
 
-<!--    <h2 class="mb4">--><?php //echo $data->heading()->text() ?><!--</h2>-->
+    <h3 class="mb2 mt6"><?php echo $data->heading()->text() ?></h3>
 
     <div class="slider js-slider mb6">
       <?php foreach($data->quotes()->toStructure() as $quote) { ?>
-        <div class="slider-item js-slider-item center">
-          <div class="slider-item__quote mb2">"<?php echo $quote->text() ?>"</div>
-          <div class="slider-item__author"><?php echo $quote->author() ?></div>
-          <?php if ($quote->company()) { ?>
-            <div class="slider-item__company">, <?php echo $quote->company() ?></div>
-          <?php } ?>
+        <div class="slider-item js-slider-item">
+          <div class="slider-item__quote mb2">
+            <?php
+              $intro = $quote->intro();
+              if ($intro) { ?>
+              <span class="slider-item__intro"><?php echo $intro; ?></span>
+            <?php } ?>
+            <?php echo $quote->text() ?>
+          </div>
         </div>
       <?php } ?>
     </div>
 
-    <div class="brands mxn3 sm-flex justify-center items-center">
+  </div>
+  <div class="max-width-4 mx-auto">
+
+    <div class="brands pt4 mxn3 sm-flex justify-center items-center">
       <?php  // Transform the comma-separated list of filenames into a file collection
       $filenames = $data->logos()->split(',');
       if(count($filenames) < 2) $filenames = array_pad($filenames, 2, '');

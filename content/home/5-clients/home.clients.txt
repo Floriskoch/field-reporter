@@ -18,15 +18,15 @@ Quotes:
 
 - 
   text: >
-    The best preparation for tomorrow is
-    doing your best today.
-  author: H. Jackson Brown, Jr.
-  company: Company
-- 
-  text: "Nothing is impossible, the word itself says 'I'm possible'!"
-  author: Audrey Hepburn
-  company: ---
-- 
-  text: "I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.'"
-  author: Muhammad Ali
-  company: ---
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Aenean tortor diam,
+    fermentum semper neque at, rutrum
+    ultricies turpis. Nulla facilisi. Cras
+    dictum aliquet varius. Donec commodo
+    enim nec orci interdum ultrices. Mauris
+    ut est elit. Praesent a neque tortor.
+    Donec rutrum ex est, et mattis orci
+    condimentum ut
+  intro: >
+    Donec auctor ante at diam aliquet
+    viverra

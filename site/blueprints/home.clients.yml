@@ -12,19 +12,15 @@ fields:
       label: Quotes
       type: structure
       entry: >
-        {{text}}<br />
-        {{author}}<br />
-        {{company}}
+        {{intro}}<br />
+        {{text}}
       fields:
+        intro:
+          label: Intro
+          type: text
         text:
           label: Text
-          type: text
-        author:
-          label: Author
-          type: text
-        company:
-          label: Company
-          type: text
+          type: textarea
   logos:
       label: Logos
       type: selector
