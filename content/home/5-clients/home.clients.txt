@@ -6,11 +6,11 @@ Text:
 
 ----
 
-Heading: Quotes heading ..
+Heading: Case studies / Examples
 
 ----
 
-Logos: krakeling_logo_jouw_theater.jpg,logo_opzienbarend.png,nederland-circulaire-hotspot_logo_eng_met-fonts.png
+Logos: 
 
 ----
 
@@ -18,15 +18,68 @@ Quotes:
 
 - 
   text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Aenean tortor diam,
-    fermentum semper neque at, rutrum
-    ultricies turpis. Nulla facilisi. Cras
-    dictum aliquet varius. Donec commodo
-    enim nec orci interdum ultrices. Mauris
-    ut est elit. Praesent a neque tortor.
-    Donec rutrum ex est, et mattis orci
-    condimentum ut
+    needs to report on the development
+    impact they are creating and showcase it
+    to stakeholders. The current reporting
+    protocols create a heavy burden on the
+    local financing partners. Furthermore,
+    the traditional reports are not
+    convincing critics and/or NGO’s on
+    their added value. This bank uses Field
+    Reporter to create visual reports on the
+    impact created in a more effective,
+    authentic and intuitive way.
+  intro: A large / international development bank
+- 
   intro: >
-    Donec auctor ante at diam aliquet
-    viverra
+    A leading (voluntary) sustainability
+    standard
+  text: >
+    is using Field Reporter to reduce the
+    transaction costs, mainly related to
+    farm visits, and capture the impact of
+    the certification program on the farms
+    for internal sharing and learning. In
+    2017, they intend to use it to feed
+    their clients (consumer facing brands)
+    with ‘impact stories from the
+    field’.
+- 
+  intro: An international foundation
+  text: >
+    with an innovative approach to ecosystem
+    restoration has projects across the
+    planet. Each project has a team that
+    builds partnerships, engages
+    communities, develops alternative
+    business models and has to convince
+    financiers and governments. Each project
+    (team) has similar challenges and they
+    are all working as hard as they can. So
+    far, each project had to reinvent the
+    wheel because it was difficult to
+    capture key insights and share those
+    with the other projects in a fast,
+    simple and authentic way. With Field
+    Reporter, the horizontal flow of
+    insights between the projects not only
+    accelerates learning. It also benefits
+    the team spirit and proves to be an
+    effective tool for effective management
+    decisions.
+- 
+  intro: >
+    A well-established impact investment
+    fund
+  text: >
+    uses Field Reporter as a cost effective
+    and honest tool for it’s soft due
+    diligence and building a relationship
+    with potential portfolio companies.
+    Besides, they use Field Reporter to
+    capture the baseline situation and for
+    rich quarterly reporting without having
+    to go through the tiresome process of
+    filling in forms. The best progress
+    reports are showcased on their website
+    and/or shared with their investors.

@@ -3,6 +3,8 @@
 
 @import "vendor/normalize";
 @import "vendor/basscss";
+@import "vendor/basscss-extensions";
+@import "vendor/covervid";
 @import "vendor/flickity";
 
 @import "base/base";
@@ -14,8 +16,12 @@
 @import "components/cards";
 @import "components/forms";
 @import "components/menu";
+@import "components/parallax";
+@import "components/profiles";
 @import "components/slider";
 
 @import "layout/header";
 @import "layout/footer";
 @import "layout/sections";
+
+@import "pages/about";

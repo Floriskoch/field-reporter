@@ -6,6 +6,7 @@
 
       <div class="col col-12 md-col-6 px4 mb2">
         <div class="card card--hover p4">
+          <h3 class="mt0"><?php echo $data->productHeading1()->text() ?></h3>
           <img src="<?php echo $data->productImage1()->toFile()->url() ?>" alt="" class="fit">
           <?php echo $data->productText1()->kirbytext() ?>
           <a class="btn btn--primary right" href="<?php echo $data->productUrl1()->text() ?>"><?php echo $data->productButton1()->text() ?></a>
@@ -14,6 +15,7 @@
 
       <div class="col col-12 md-col-6 px4">
         <div class="card card--hover p4">
+          <h3 class="mt0"><?php echo $data->productHeading2()->text() ?></h3>
           <img src="<?php echo $data->productImage2()->toFile()->url() ?>" alt="" class="fit">
           <?php echo $data->productText2()->kirbytext() ?>
           <a class="btn btn--primary right" href="<?php echo $data->productUrl2()->text() ?>"><?php echo $data->productButton2()->text() ?></a>

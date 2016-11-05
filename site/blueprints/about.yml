@@ -1,0 +1,34 @@
+title: About
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  team:
+    label: Team text
+    type:  textarea
+  profiles:
+    label: Profiles
+    type: structure
+    entry: >
+      {{image}}<br />
+      {{name}}<br />
+      {{job}}<br />
+      {{description}}
+    fields:
+      image:
+        label: Profile image
+        type: image
+      name:
+        label: Name
+        type: text
+      job:
+        label: Job
+        type: text
+      description:
+        label: Description
+        type: textarea

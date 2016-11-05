@@ -14,7 +14,7 @@ Covervideourl:
 
 ----
 
-Coverimage: hero_tmp.jpg
+Coverimage: hero_img_fallback.jpg
 
 ----
 

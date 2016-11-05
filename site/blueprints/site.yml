@@ -19,4 +19,6 @@ fields:
   logo:
     label: Logo
     type: image
-
+  analytics:
+      label: Google Analytics Tracking-ID
+      type: text

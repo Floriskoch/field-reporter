@@ -2,39 +2,50 @@ title: Home Solutions
 pages: false
 files: true
 fields:
+  title:
+    label: Title
+    type: text
   heading:
     label: Heading
     type: text
+  productHeading1:
+    label: Solution 1 heading
+    type: text
+    width: 1/2
+  productHeading2:
+    label: Solution 2 heading
+    type: text
+    width: 1/2
   productImage1:
-    label: Product 1 image
+    label: Solution 1 image
     type: image
     width: 1/2
   productImage2:
-    label: Product 2 image
+    label: Solution 2 image
     type: image
     width: 1/2
   productText1:
-    label: Product 1 text
+    label: Solution 1 text
     type: textarea
     width: 1/2
   productText2:
-    label: Product 2 text
+    label: Solution 2 text
     type: textarea
     width: 1/2
   productButton1:
-    label: Product 1 button text
+    label: Solution 1 button text
     type: text
     width: 1/2
   productButton2:
-    label: Product 2 button text
+    label: Solution 2 button text
     type: text
     width: 1/2
   productUrl1:
-    label: Product 1 url
+    label: Solution 1 url
     type: text
     width: 1/2
   productUrl2:
-    label: Product 2 url
+    label: Solution 2 url
     type: text
     width: 1/2
 

@@ -9,53 +9,34 @@ Text:
 Blocks: 
 
 - 
-  image: whatdoesitdo.png
-  heading: heading1
+  image: opzienbarend_wdid_1_cap.png
+  heading: Capture stories from anybody. Anywhere.
   text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Phasellus hendrerit
-    metus faucibus efficitur tempus. Sed et
-    cursus erat, eu pharetra nibh.
-    Pellentesque a scelerisque elit. Duis
-    ullamcorper, lorem quis sagittis
-    ultrices, sapien orci tempor velit, in
-    imperdiet risus tellus sed enim.
+    Our remote storyboarding technology
+    allows clients to deploy specific
+    scripts for structured and tailor-made
+    storytelling. Say goodbye to long and
+    windy emails and forms.
 - 
-  image: whatdoesitdo.png
-  heading: heading 2
+  image: opzienbarend_wdid_2_enrich.png
+  heading: Enrich your story with data.
   text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Aliquam elementum, orci
-    in ornare rhoncus, augue massa venenatis
-    metus, vitae rutrum lacus risus at
-    dolor. Curabitur pharetra faucibus velit
-    eget volutpat. Aliquam placerat eleifend
-    porttitor. Maecenas risus neque,
-    lobortis a neque venenatis, rutrum
-    semper arcu. Quisque eu leo purus.
+    Advanced tagging and form integration
+    means you can add that all-important
+    data to your stories. Search the story
+    database, pick best examples and
+    showcase your impact!
 - 
-  image: whatdoesitdo.png
-  heading: heading 3
-  text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Aliquam elementum, orci
-    in ornare rhoncus, augue massa venenatis
-    metus, vitae rutrum lacus risus at
-    dolor. Curabitur pharetra faucibus velit
-    eget volutpat. Aliquam placerat eleifend
-    porttitor. Maecenas risus neque,
-    lobortis a neque venenatis, rutrum
-    semper arcu. Quisque eu leo purus.
+  image: opzienbarend_wdid_3_show.png
+  heading: Show, don’t tell.
+  text: "Don't bore your stakeholders. Instead, engage them by simply showing the impact of your work. Whether it is about inspiring examples, lessons learned or impact reporting, Field Reporter has you covered."
 - 
-  image: whatdoesitdo.png
-  heading: heading 4
+  image: opzienbarend_wdid_4_auth.png
+  heading: >
+    Authentic communication, consistently
+    told.
   text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Aliquam elementum, orci
-    in ornare rhoncus, augue massa venenatis
-    metus, vitae rutrum lacus risus at
-    dolor. Curabitur pharetra faucibus velit
-    eget volutpat. Aliquam placerat eleifend
-    porttitor. Maecenas risus neque,
-    lobortis a neque venenatis, rutrum
-    semper arcu. Quisque eu leo purus.
+    Field Reporter allows teams, projects
+    and people to showcase their impact
+    without the need for advanced editing
+    skills or expensive production agencies.

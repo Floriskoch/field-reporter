@@ -8,11 +8,12 @@
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
+  <link rel="shortcut icon" href="favicon.ico">
 
   <?php echo css('assets/build/css/style.css') ?>
 
 </head>
-<body class="bg-texture-white <?php echo $page->template() ?>">
+<body class="bg-texture-white <?php echo $page->template() ?><?php echo ($page->isHomepage()) ? '' : ' pt6' ?>">
 
   <header class="header clearfix" role="banner">
     <div class="wrap max-width-4 mx-auto px2">

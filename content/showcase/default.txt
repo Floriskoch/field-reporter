@@ -1,18 +1,27 @@
-Title: Showcase
+Title: Impact Showcase
 
 ----
 
 Text: 
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+###Stakeholder Engagement
 
-## Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+Images convey what data and email alone cannot. When people read about your work projects they might miss vital contextual information and a personal connection to the people behind the project at hand.
 
-(image: about.jpg)
+Visual stories create a full impression of what is happening in any location you are working in, blending reason with emotion and image with information. This creates easy advantages over burdensome administration, reporting and communication.
 
-### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+Knowledge of what makes a great story is embedded in the tool itself. Alongside the tool, we give you a range of storyboards to choose from so you can pick and adapt the one most relevant to your situation. The tool allows you full control of the scripts you send out to your reporters, informed by knowledge of great storytelling and effective communication. 
 
-#### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+> Data without context is just information. Data with context is knowledge.  
+- Albert Einstein
+
+###What does this deliver?
+
+####Improved stakeholder engagement 
+Only when one can truly engage with stakeholders on a deeper level can the full potential of a project come to life. Field Reporter enhances your reporting with rich visual content and authentic impact stories, 
+
+####Improved Knowledge Building
+Capture and share key insights and best practices both horizontally and vertically within your organisation and become the industry thought leader you want to be.  
+
+####Powerful team spirit & employee satisfaction 
+Stay up to date with your team mates, across all timezones. Share best practices, learn from each other and keep that teamspirit high.

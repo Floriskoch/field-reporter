@@ -1,4 +1,4 @@
-Title: Products
+Title: Solutions
 
 ----
 
@@ -6,36 +6,44 @@ Text:
 
 ----
 
-Productimage1: whatdoesitdo.png
+Productimage1: opzienbarend_sol_1_teams.png
 
 ----
 
-Productimage2: whatdoesitdo.png
+Productimage2: opzienbarend_sol_2_showcase.png
 
 ----
 
-Producttext1: Curabitur tincidunt turpis non est malesuada mollis. Nunc accumsan, massa mollis sollicitudin aliquam, tellus lorem tincidunt diam, eget mollis mauris elit ornare felis. Aenean at mauris vitae tortor accumsan placerat. Nunc posuere sem ac lobortis commodo. Nullam ac euismod velit.
+Producttext1: Stay up to date with your team mates, across all timezones. Share best practices, learn from each other and keep that teamspirit high.
 
 ----
 
-Producttext2: Curabitur tincidunt turpis non est malesuada mollis. Nunc accumsan, massa mollis sollicitudin aliquam, tellus lorem tincidunt diam, eget mollis mauris elit ornare felis. Aenean at mauris vitae tortor accumsan placerat. Nunc posuere sem ac lobortis commodo. Nullam ac euismod velit.
+Producttext2: Keep your stakeholders engaged by showing the impact of your projects. Deploy scripts to the field, capture stories, enrich with data and show them to those who matter to you.
 
 ----
 
-Productbutton1: Read more
+Productbutton1: Learn more
 
 ----
 
-Productbutton2: Read more
+Productbutton2: Learn more
 
 ----
 
-Producturl1: /for-teams
+Producturl1: /fr/for-teams
 
 ----
 
-Producturl2: /showcase
+Producturl2: /fr/showcase
 
 ----
 
 Heading: Our solutions
+
+----
+
+Productheading1: Team Engagement
+
+----
+
+Productheading2: Impact Showcase

@@ -18,4 +18,4 @@ Button: Get a free demo
 
 ----
 
-Thankyou: Thanks for your request!
+Thankyou: Thank you for getting in touch!
