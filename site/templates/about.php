@@ -14,7 +14,7 @@
     <section class="px2 bg-texture-green">
       <div class="max-width-4 mx-auto py4">
 
-        <div class="card p2 md-p4">
+        <div class="card px2 pt3 pb0 md-p4">
           <h2 class="mt0 mb2">Team</h2>
           <p class="mb4"><?php echo $page->team()->text() ?></p>
 

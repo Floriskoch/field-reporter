@@ -1,40 +1,40 @@
 <section class="section--<?php echo $data->uid() ?> section--dark"
-  <?php if (false): //$coverimage = $data->coverimage()->toFile() ?>
+  <?php if ($coverimage = $data->coverimage()->toFile()): ?>
     style="background-image:url(<?php echo $coverimage->resize(1600)->url() ?>)"
   <?php endif ?>
 >
 
 
-  <div class="layer js-layer-bg" data-depth="0.00" data-type="parallax">
+  <div class="layer xs-hide js-layer-bg" data-depth="0.00" data-type="parallax">
     <div class="covervid-wrapper">
-      <video class="covervid-video js-covervid" autoplay muted loop poster="<?php// echo $coverimage->url() ?>">
+      <video class="covervid-video js-covervid" autoplay muted loop poster="<?php echo $coverimage->url() ?>">
         <source src="assets/build/video/intro.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
-  <div class=" layer" data-depth="0.30" data-type="parallax">
+  <div class="layer xs-hide" data-depth="0.30" data-type="parallax">
     <img src="assets/build/images/anim1.svg" alt="" class="fit">
   </div>
-  <div class=" layer" data-depth="0.40" data-type="parallax">
+  <div class="layer xs-hide" data-depth="0.40" data-type="parallax">
     <img src="assets/build/images/anim2.svg" alt="" class="fit">
   </div>
-  <div class="layer" data-depth="0.80" data-type="parallax">
+  <div class="layer xs-hide" data-depth="0.80" data-type="parallax">
     <img src="assets/build/images/anim3.svg" alt="" class="fit">
   </div>
-  <div class="layer" data-depth="1.20" data-type="parallax">
+  <div class="layer xs-hide" data-depth="1.20" data-type="parallax">
     <img src="assets/build/images/anim4.svg" alt="" class="fit">
   </div>
-  <div class="layer" data-depth="1.60" data-type="parallax">
+  <div class="layer xs-hide" data-depth="1.60" data-type="parallax">
     <img src="assets/build/images/anim5.svg" alt="" class="fit">
   </div>
-  <div class="layer" data-depth="2.00" data-type="parallax">
+  <div class="layer xs-hide" data-depth="2.00" data-type="parallax">
     <img src="assets/build/images/anim6.svg" alt="" class="fit">
   </div>
   
 
-  <div class="layer js-layer-text is-hidden">
-    <div class="mx-auto max-width-4 md-flex items-center" style="height: 100%;">
+  <div class="layer layer-text js-layer-text is-hidden">
+    <div class="mx-auto max-width-4 flex items-center">
 
       <div class="clearfix">
         <div class="col md-col-6 px1">

@@ -13,7 +13,7 @@
   <?php echo css('assets/build/css/style.css') ?>
 
 </head>
-<body class="bg-texture-white <?php echo $page->template() ?><?php echo ($page->isHomepage()) ? '' : ' pt6' ?>">
+<body class="bg-texture-white <?php echo $page->template() ?><?php echo ($page->isHomepage()) ? '' : ' pt4 md-pt6' ?>">
 
   <header class="header clearfix" role="banner">
     <div class="wrap max-width-4 mx-auto px2">

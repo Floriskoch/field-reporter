@@ -5,7 +5,7 @@
     <div class="clearfix mxn4">
 
       <div class="col col-12 md-col-6 px4 mb2">
-        <div class="card card--hover p4">
+        <div class="card card--hover px2 pt3 pb4 md-p4">
           <h3 class="mt0"><?php echo $data->productHeading1()->text() ?></h3>
           <img src="<?php echo $data->productImage1()->toFile()->url() ?>" alt="" class="fit">
           <?php echo $data->productText1()->kirbytext() ?>
@@ -14,7 +14,7 @@
       </div>
 
       <div class="col col-12 md-col-6 px4">
-        <div class="card card--hover p4">
+        <div class="card card--hover px2 pt3 pb4 md-p4">
           <h3 class="mt0"><?php echo $data->productHeading2()->text() ?></h3>
           <img src="<?php echo $data->productImage2()->toFile()->url() ?>" alt="" class="fit">
           <?php echo $data->productText2()->kirbytext() ?>

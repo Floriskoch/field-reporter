@@ -10,8 +10,12 @@ header {
   .wrap {
     display: flex;
     align-items: center;
-    height: 6rem;
+    height: 4rem;
     transition: height .2s ease-in-out;
+
+    @media (min-width: 40em) {
+      height: 6rem;
+    }
   }
 
   nav {

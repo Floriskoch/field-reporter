@@ -17,7 +17,7 @@ if (isset($_POST['ctaEmail'])) {
     <div class="clearfix mxn1">
 
       <div class="col col-12 px1">
-        <div class="card card--hover p4">
+        <div class="card card--hover px2 pt3 pb4 md-p4">
 
           <div class="max-width-2 mx-auto">
 
