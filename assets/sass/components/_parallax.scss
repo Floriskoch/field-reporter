@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    will-change: transform;
   }
 
   .layer {
@@ -43,6 +44,8 @@
   .layer-5,
   .layer-6 {
     z-index: 3;
+    height: 200vh;
+    background-size: contain;
   }
 
   .layer-1 {

@@ -46,19 +46,23 @@ if (body.classList.contains('home')) {
     var layerBg = document.querySelector('.js-layer-bg');
     var layerText = document.querySelector('.js-layer-text');
 
+    var topDistance = window.pageYOffset;
+    var scrollPos = topDistance;
+    var layers = document.querySelectorAll('[data-type=\'parallax\']');
+
+    window.onscroll = function(){
+      topDistance = window.pageYOffset;
+    };
+
     var parallax = function() {
-      var depth, i, layer, layers, len, movement, topDistance, translate3d;
-      topDistance = this.pageYOffset;
-      layers = document.querySelectorAll('[data-type=\'parallax\']');
-      for (i = 0, len = layers.length; i < len; i++) {
-        layer = layers[i];
-        depth = layer.getAttribute('data-depth');
-        movement = -(topDistance * depth);
-        translate3d = 'translate3d(0, ' + movement + 'px, 0)';
+      for (var i = 0, len = layers.length; i < len; i++) {
+        var layer = layers[i];
+        var depth = layer.getAttribute('data-depth');
+        scrollPos += (topDistance - scrollPos) * 0.05;
+        var movement = (scrollPos * depth) * -1;
+        var translate3d = 'translate3d(0, ' + movement + 'px, 0)';
+
         layer.style['-webkit-transform'] = translate3d;
-        layer.style['-moz-transform'] = translate3d;
-        layer.style['-ms-transform'] = translate3d;
-        layer.style['-o-transform'] = translate3d;
         layer.style.transform = translate3d;
       }
 
@@ -69,9 +73,10 @@ if (body.classList.contains('home')) {
         layerText.classList.add('is-hidden');
       }
 
+      window.requestAnimationFrame(parallax);
     };
+    window.requestAnimationFrame(parallax);
 
-    window.addEventListener('scroll', parallax);
 
     sectionWatcher.enterViewport(function() {
       layerBg.classList.add('is-absolute');
