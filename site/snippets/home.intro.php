@@ -1,5 +1,5 @@
-<section class="section--<?php echo $data->uid() ?> section--dark" id="section-intro">
-  <?php $coverimage = ($data->coverimage()->toFile()) ? $data->coverimage()->toFile()->resize(1600)->url() : ''; ?>
+<?php $coverimage = ($data->coverimage()->toFile()) ? $data->coverimage()->toFile()->resize(1600)->url() : ''; ?>
+<section class="section--<?php echo $data->uid() ?> section--dark" id="section-intro" style="background-image: url('<?php echo $coverimage ?>')">
 
   <div class="layer layer-bg xs-hide js-layer-bg" data-depth="0.00" data-type="parallax">
     <div class="covervid-wrapper">
@@ -20,7 +20,7 @@
     <div class="mx-auto max-width-4 flex items-center">
 
       <div class="clearfix">
-        <div class="col md-col-6 px1">
+        <div class="col md-col-6 px2">
           <h2><?php echo $data->heading()->text() ?></h2>
           <a href="#section-what-does-it-do" class="btn btn--primary white" data-scroll>Read more</a>
           <span class="white"> or </span>

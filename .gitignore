@@ -5,3 +5,6 @@
 /thumbs/*
 /node_modules
 /.idea
+
+content/*
+!content/.gitkeep

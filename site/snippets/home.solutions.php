@@ -25,4 +25,5 @@
     </div>
     
   </div>
+  <div class="bg-rounded bg-rounded--bottom"></div>
 </section>

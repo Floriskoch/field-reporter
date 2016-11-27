@@ -11,7 +11,11 @@ if (isset($_POST['ctaEmail'])) {
 }
 
 ?>
+
 <section class="section--<?php echo $data->uid() ?> section--dark py8 px2 bg-texture-green" id="section-demo">
+
+  <div class="bg-rounded bg-rounded--top"></div>
+
   <div class="max-width-3 mx-auto">
 
     <div class="clearfix mxn1">

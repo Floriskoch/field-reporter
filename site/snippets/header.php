@@ -15,6 +15,12 @@
 </head>
 <body class="bg-texture-white <?php echo $page->template() ?><?php echo ($page->isHomepage()) ? '' : ' pt4 md-pt6' ?>">
 
+  <!--[if lt IE 9]>
+  <script >
+    window.location.replace("http://www.fieldreporter.co/error");
+  </script>
+  <![endif]-->
+
   <header class="header clearfix" role="banner">
     <div class="wrap max-width-4 mx-auto px2">
       <a class="logo" href="<?php echo url() ?>">

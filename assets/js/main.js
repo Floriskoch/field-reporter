@@ -41,42 +41,40 @@ if (body.classList.contains('home')) {
     coverVid(document.querySelector('.js-covervid'), 1280, 720);
 
     // Parallax
-    var section = document.getElementById('section-what-does-it-do');
-    var sectionWatcher = scrollMonitor.create(section);
     var layerBg = document.querySelector('.js-layer-bg');
     var layerText = document.querySelector('.js-layer-text');
     var sectionIntro = document.getElementById('section-intro');
-    var topDistance = window.pageYOffset;
-    var scrollPos = topDistance;
+    var scrollPos = window.pageYOffset;
     var layers = document.querySelectorAll('[data-type=\'parallax\']');
-
-    window.onscroll = function(){
-      topDistance = window.pageYOffset;
-    };
 
     var parallax = function() {
       for (var i = 0, len = layers.length; i < len; i++) {
         var layer = layers[i];
         var depth = layer.getAttribute('data-depth');
-        scrollPos += (topDistance - scrollPos) * 0.05;
         var movement = (scrollPos * depth) * -1;
         var translate3d = 'translate3d(0, ' + movement + 'px, 0)';
 
         layer.style['-webkit-transform'] = translate3d;
         layer.style.transform = translate3d;
       }
-
-      var vhScrolled = Math.round(window.pageYOffset / window.innerHeight * 100);
-      if (vhScrolled > 100) {
-        layerText.classList.remove('is-hidden');
-      } else {
-        layerText.classList.add('is-hidden');
-      }
-
-      window.requestAnimationFrame(parallax);
     };
+
     window.requestAnimationFrame(parallax);
 
+    window.addEventListener('scroll', function() {
+      scrollPos = window.pageYOffset;
+      window.requestAnimationFrame(parallax);
+
+      var vhScrolled = Math.round(window.pageYOffset / window.innerHeight * 100);
+      if (vhScrolled > 100 && layerText.classList.contains('is-hidden')) {
+        layerText.classList.remove('is-hidden');
+      } else if (vhScrolled <= 100 && !layerText.classList.contains('is-hidden')) {
+        layerText.classList.add('is-hidden');
+      }
+    });
+
+    var section = document.getElementById('section-what-does-it-do');
+    var sectionWatcher = scrollMonitor.create(section);
 
     sectionWatcher.enterViewport(function() {
       layerBg.classList.add('is-absolute');
@@ -106,13 +104,13 @@ if (body.classList.contains('home')) {
 // GENERAL
 //------------------------------------//
 
-// Sticky header
+/*// Sticky header
 var header = document.querySelector('header');
 var headroom  = new Headroom(header, {
   offset: 100,
   tolerance: 5
 });
-headroom.init();
+headroom.init();*/
 
 // Smooth scroll
 SmoothScroll.init({
