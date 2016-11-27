@@ -22,6 +22,7 @@ if (isset($_POST['ctaEmail'])) {
           <div class="max-width-2 mx-auto">
 
             <h3 class="mt0 mb2"><?php echo $data->heading()->text() ?></h3>
+            <p><?php echo $data->text()->kirbytext() ?></p>
 
             <?php if (!isset($response)) { ?>
               <form action="/#section-demo" method="post" class="md-flex items-center">

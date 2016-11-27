@@ -36,7 +36,7 @@ if (body.classList.contains('home')) {
   sr.reveal('.section--what-does-it-do img', { viewOffset: { bottom: 100 } });
 
   // Run if not mobile
-  if (window.innerWidth >= 640) {
+  if (window.innerWidth >= 1024) {
     // Initialize cover video
     coverVid(document.querySelector('.js-covervid'), 1280, 720);
 
@@ -45,7 +45,7 @@ if (body.classList.contains('home')) {
     var sectionWatcher = scrollMonitor.create(section);
     var layerBg = document.querySelector('.js-layer-bg');
     var layerText = document.querySelector('.js-layer-text');
-
+    var sectionIntro = document.getElementById('section-intro');
     var topDistance = window.pageYOffset;
     var scrollPos = topDistance;
     var layers = document.querySelectorAll('[data-type=\'parallax\']');
@@ -81,6 +81,7 @@ if (body.classList.contains('home')) {
     sectionWatcher.enterViewport(function() {
       layerBg.classList.add('is-absolute');
       layerText.classList.add('is-absolute');
+      sectionIntro.classList.add('is-away');
       window.removeEventListener('scroll', parallax);
     });
 
@@ -88,9 +89,15 @@ if (body.classList.contains('home')) {
       if (sectionWatcher.isBelowViewport) {
         layerBg.classList.remove('is-absolute');
         layerText.classList.remove('is-absolute');
+        sectionIntro.classList.remove('is-away');
         window.addEventListener('scroll', parallax);
       }
     });
+
+    // Force scroll to top on reload
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
   }
 }
 

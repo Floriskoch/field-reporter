@@ -1,0 +1,17 @@
+title: Unsupported Browser
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  browserImage:
+    label: Image
+    type:  image
+  heading:
+    label: Heading
+    type:  text
+  text:
+    label: Text
+    type: textarea
+

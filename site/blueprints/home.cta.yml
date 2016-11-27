@@ -3,8 +3,11 @@ pages: false
 files: true
 fields:
   heading:
-    label: Heading
+    label: Heading title
     type: text
+  text:
+    label: Heading text
+    type: textarea
   input:
     label: Input placeholder
     type: text

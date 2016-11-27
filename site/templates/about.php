@@ -2,11 +2,11 @@
 
   <main class="main" role="main">
 
-    <section class="px2 page-intro">
+    <section class="px2">
       <div class="max-width-4 mx-auto pt4 pb6">
 
         <h1 class="mb1"><?php echo $page->title()->html() ?></h1>
-        <p class="my0"><?php echo $page->text()->kirbytext() ?></p>
+        <div class="page-intro my0"><?php echo $page->text()->kirbytext() ?></div>
 
       </div>
     </section>

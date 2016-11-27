@@ -1,0 +1,32 @@
+title: Solution
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  headingText:
+    label: Heading Text
+    type:  textarea
+  headingImage:
+    label: Heading Image
+    type: image
+  sellingPointsHeading:
+    label: Selling Points Heading
+    type: text
+  sellingPointsText:
+    label: Selling Points Text
+    type: textarea
+  sellingPoints:
+    label: Selling Points
+    type: structure
+    entry: >
+      {{name}}<br />
+      {{description}}
+    fields:
+      name:
+        label: Name
+        type: text
+      description:
+        label: Description
+        type: textarea
