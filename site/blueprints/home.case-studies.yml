@@ -1,0 +1,29 @@
+title: Home Intro
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type: text
+  heading:
+    label: Heading
+    type: text
+  intro:
+    label: Heading Text
+    type: textarea
+  quotes:
+    label: Quotes
+    type: structure
+    entry: >
+      {{heading}}<br />
+      {{text}}
+    fields:
+      heading:
+        label: Heading
+        type: text
+      text:
+        label: Text
+        type: textarea
+      image:
+        label: Image
+        type: image

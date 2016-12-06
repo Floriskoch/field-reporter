@@ -31,7 +31,7 @@
           <div class="clearfix">
 
             <?php $i = 1; foreach($page->sellingPoints()->toStructure() as $sellingPoint) { ?>
-            <div class="selling-point col md-col-4 px1 md-px3 mb6 center md-left-align">
+            <div class="selling-point col md-col-4 px1 md-px3 mb6 lg-mb0 center md-left-align">
               <div class="selling-point__number mb3 mx-auto"><span><?php echo $i ?></span></div>
               <div class="bold mb1"><?php echo $sellingPoint->name() ?></div>
               <div class=""><?php echo $sellingPoint->description() ?></div>

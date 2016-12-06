@@ -1,4 +1,4 @@
-<section class="section--<?php echo $data->uid() ?> py8 px2">
+<section class="section--<?php echo $data->uid() ?> py8 px2" id="section-why">
   <div class="max-width-4 mx-auto">
     <div class="card card--text px2 py4 md-px4 md-py8">
       <div class="max-width-3 mx-auto">

@@ -5,6 +5,12 @@ fields:
   title:
     label: Title
     type: text
+  heading:
+    label: Heading
+    type: text
+  headingText:
+    label: Heading Text
+    type: textarea
   blocks:
       label: Blocks
       type: structure

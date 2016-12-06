@@ -49,6 +49,11 @@
     padding: 10px 25px;
     text-transform: lowercase;
     font-variant: small-caps;
+    transition: opacity .15s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 

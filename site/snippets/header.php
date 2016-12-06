@@ -10,7 +10,7 @@
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
   <link rel="shortcut icon" href="favicon.ico">
 
-  <?php echo css('assets/build/css/style.css') ?>
+  <?php echo css('assets/build/css/dist/style.min.css') ?>
 
 </head>
 <body class="bg-texture-white <?php echo $page->template() ?><?php echo ($page->isHomepage()) ? '' : ' pt4 md-pt6' ?>">
@@ -30,3 +30,7 @@
       <?php snippet('menu') ?>
     </div>
   </header>
+
+  <div class="loader">
+    <img src="<?php echo ($logo) ? $logo : url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+  </div>

@@ -12,7 +12,7 @@ if (isset($_POST['ctaEmail'])) {
 
 ?>
 
-<section class="section--<?php echo $data->uid() ?> section--dark py8 px2 bg-texture-green" id="section-demo">
+<section class="section--<?php echo $data->uid() ?> section--dark py4 px2 bg-texture-green" id="section-demo">
 
   <div class="bg-rounded bg-rounded--top"></div>
 
@@ -30,8 +30,13 @@ if (isset($_POST['ctaEmail'])) {
 
             <?php if (!isset($response)) { ?>
               <form action="/#section-demo" method="post" class="md-flex items-center">
-                <input type="email" class="py1 px2 flex-auto" placeholder="<?php echo $data->input()->text() ?>" name="ctaEmail">
-                <button type="submit" class="ml2 btn btn--primary"><?php echo $data->button()->text() ?></button>
+
+                <div class="input-cta js-input-cta flex">
+                  <input type="email" class=" flex-auto" placeholder="<?php echo $data->input()->text() ?>" name="ctaEmail">
+                  <button type="submit" class="ml2 btn btn--cta" disabled><?php echo $data->button()->text() ?></button>
+                </div>
+
+
               </form>
             <?php } else { ?>
               <p><?php echo $data->thankyou()->text() ?></p>

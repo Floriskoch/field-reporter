@@ -40,3 +40,11 @@ Blocks:
     and people to showcase their impact
     without the need for advanced editing
     skills or expensive production agencies.
+
+----
+
+Heading: What is Field Reporter?
+
+----
+
+Headingtext: Fusce faucibus nec libero pulvinar imperdiet. Morbi ac vestibulum lorem. Sed sit amet varius lorem. Etiam metus erat, tincidunt ac leo nec, interdum laoreet nibh. Vivamus varius a nulla eget eleifend.

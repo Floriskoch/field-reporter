@@ -19,9 +19,10 @@
   <div class="layer layer-text js-layer-text is-hidden">
     <div class="mx-auto max-width-4 flex items-center">
 
-      <div class="clearfix">
+      <div class="clearfix col-12">
         <div class="col md-col-6 px2">
-          <h2><?php echo $data->heading()->text() ?></h2>
+          <h2 class="mb0"><?php echo $data->heading()->text() ?></h2>
+          <p class="larger"><?php echo $data->tagline()->text() ?></p>
           <a href="#section-what-does-it-do" class="btn btn--primary white" data-scroll>Read more</a>
           <span class="white"> or </span>
           <a href="#section-demo" class="btn btn--primary white" data-scroll>request a demo</a>

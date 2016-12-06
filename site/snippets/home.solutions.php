@@ -1,6 +1,10 @@
-<section class="section--<?php echo $data->uid() ?> section--dark py4 px2 bg-texture-green" id="section-solutions">
+<section class="section--<?php echo $data->uid() ?> py3 px2" id="section-solutions">
   <div class="max-width-4 mx-auto">
-    <h2 class="mt0 mb4"><?php echo $data->heading()->text() ?></h2>
+    
+    <div class="md-col-8 col-12">
+      <h2 class="my0"><?php echo $data->heading()->text() ?></h2>
+      <p class="mb4"><?php echo $data->headingText()->text() ?></p>
+    </div>
 
     <div class="clearfix mxn4">
 
@@ -25,5 +29,4 @@
     </div>
     
   </div>
-  <div class="bg-rounded bg-rounded--bottom"></div>
 </section>

@@ -8,6 +8,9 @@ fields:
   heading:
     label: Heading
     type: text
+  tagline:
+    label: Tagline
+    type: text
   coverImage:
     label: Cover Image
     type: selector

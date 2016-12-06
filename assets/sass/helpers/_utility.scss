@@ -10,9 +10,10 @@
 
 .bg-rounded {
   @extend .bg-texture-white;
-  height: 100px;
+  height: 12rem;
   overflow: hidden;
   position: absolute;
+  z-index: 1;
   width: 100%;
   left: 0;
 
@@ -20,7 +21,7 @@
     top: 0;
 
     &:after {
-      top: 0;
+      top: 6rem;
     }
   }
 
@@ -28,7 +29,7 @@
     bottom: 0;
 
     &:after {
-      bottom: 0;
+      bottom: 6rem;
     }
   }
 
@@ -38,7 +39,7 @@
     position: absolute;
     width: 200%;
     left: -50%;
-    padding-top: 100%;
+    padding-top: 60%;
     border-radius: 50%;
   }
 }

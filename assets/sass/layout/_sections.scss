@@ -1,7 +1,8 @@
 /* Modifiers */
 .section--dark {
 
-  h2 {
+  h2,
+  p {
     color: $white;
   }
 }
@@ -26,6 +27,13 @@ section {
   }
 }
 
+.section--what-does-it-do {
+
+  .block:nth-child(even) {
+    background-color: $light-gray;
+  }
+}
+
 @media (min-width: 64em) {
   .section--intro {
     height: 280vh;
@@ -33,6 +41,15 @@ section {
 
     h2 {
       font-size: 3rem;
+    }
+  }
+
+  .section--what-does-it-do {
+    overflow: initial;
+
+    .card {
+      top: -10rem;
+      margin-bottom: -10rem;
     }
   }
 }

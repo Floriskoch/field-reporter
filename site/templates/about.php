@@ -3,7 +3,7 @@
   <main class="main" role="main">
 
     <section class="px2">
-      <div class="max-width-4 mx-auto pt4 pb6">
+      <div class="max-width-4 mx-auto pt2 pb4">
 
         <h1 class="mb1"><?php echo $page->title()->html() ?></h1>
         <div class="page-intro my0"><?php echo $page->text()->kirbytext() ?></div>
@@ -16,7 +16,7 @@
 
         <div class="card px2 pt3 pb0 md-p4">
           <h2 class="mt0 mb2">Team</h2>
-          <p class="mb4"><?php echo $page->team()->text() ?></p>
+          <div class="mb4"><?php echo $page->team()->kirbytext() ?></div>
 
           <div class="clearfix">
 

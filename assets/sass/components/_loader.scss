@@ -1,0 +1,56 @@
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: $white;
+  z-index: 9999;
+  display: none;
+
+  &.loader--hidden {
+    animation: hideOverlay 1s forwards;
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 3rem;
+  }
+
+  @media (min-width: 64em) {
+    display: block;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes hideOverlay {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  99.9% {
+    opacity: 0;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes hideOverlay {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  99.9% {
+    opacity: 0;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}

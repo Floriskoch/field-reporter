@@ -6,7 +6,7 @@ Text:
 
 ----
 
-Heading: The smart way to visualise, control and communicate your impact
+Heading: Get the full picture
 
 ----
 
@@ -23,3 +23,7 @@ Btnlink:
 ----
 
 Btntext: 
+
+----
+
+Tagline: Dit is de tagline

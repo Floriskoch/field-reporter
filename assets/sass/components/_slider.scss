@@ -12,3 +12,25 @@
   font-size: 1.2rem;
   display: inline-block;
 }
+
+.flickity-prev-next-button {
+  display: none;
+
+  &.previous { left: -3rem }
+  &.next { right: -3rem }
+
+  &:hover {
+
+    .arrow {
+      fill: $green;
+    }
+  }
+
+  @media (min-width: 64em) {
+    display: block;
+  }
+}
+
+
+
+

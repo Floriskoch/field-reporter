@@ -47,3 +47,7 @@ Productheading1: Team Engagement
 ----
 
 Productheading2: Impact Showcase
+
+----
+
+Headingtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna felis, lobortis id euismod ut, pretium id mauris. Donec rhoncus lobortis dolor feugiat vulputate.
