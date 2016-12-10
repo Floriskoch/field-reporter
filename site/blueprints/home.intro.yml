@@ -17,3 +17,9 @@ fields:
     mode: single
     types:
       - image
+  coverVideo:
+    label: Cover Video
+    type: selector
+    mode: single
+    types:
+      - video

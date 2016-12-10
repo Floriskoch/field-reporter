@@ -27,3 +27,7 @@ Btntext:
 ----
 
 Tagline: Dit is de tagline
+
+----
+
+Covervideo: intro.mp4

@@ -13,12 +13,25 @@ button[disabled]:hover {
 }
 
 .input-cta {
-  border: 2px solid $green;
-  border-radius: 40px;
-  padding: 2px 2px 2px 18px;
   width: 100%;
 
   input {
     border: 0;
+    border-bottom: 2px solid $green;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+
+  @media (min-width: 40em) {
+    border: 2px solid $green;
+    border-radius: 40px;
+    padding: 2px 2px 2px 18px;
+
+    input {
+      border: 0;
+    }
   }
 }

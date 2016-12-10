@@ -19,11 +19,15 @@
     transform: translate(-50%, -50%);
     height: 3rem;
   }
+}
 
-  @media (min-width: 64em) {
+@media (min-width: 64em) {
+  .home .loader {
     display: block;
   }
 }
+
+
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes hideOverlay {

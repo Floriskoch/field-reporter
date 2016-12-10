@@ -54,7 +54,10 @@ if (body.classList.contains('home')) {
   // Run if not mobile
   if (window.innerWidth >= 1024) {
     // Initialize cover video
-    coverVid(document.querySelector('.js-covervid'), 1280, 720);
+    var video = document.querySelector('.js-covervid');
+    if (video) {
+      coverVid(video, 1280, 720);
+    }
 
     // Parallax
     var layerBg = document.querySelector('.js-layer-bg');

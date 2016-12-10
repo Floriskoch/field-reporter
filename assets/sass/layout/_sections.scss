@@ -1,8 +1,7 @@
 /* Modifiers */
 .section--dark {
 
-  h2,
-  p {
+  h2 {
     color: $white;
   }
 }
@@ -24,6 +23,10 @@ section {
 
   h2 {
     font-size: 2.2rem;
+  }
+
+  p {
+    color: $white;
   }
 }
 

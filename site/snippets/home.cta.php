@@ -2,7 +2,7 @@
 
 if (isset($_POST['ctaEmail'])) {
   $email = $_POST['ctaEmail'];
-  $status = 'subscribed'; // "subscribed" or "unsubscribed" or "cleaned" or "pending"
+  $status = 'pending'; // "subscribed" or "unsubscribed" or "cleaned" or "pending"
   $list_id = '36025566f5';
   $api_key = 'f3bd0ce5bd535cf7f587b3f4ac617bca-us14';
   $merge_fields = array();
@@ -31,9 +31,9 @@ if (isset($_POST['ctaEmail'])) {
             <?php if (!isset($response)) { ?>
               <form action="/#section-demo" method="post" class="md-flex items-center">
 
-                <div class="input-cta js-input-cta flex">
-                  <input type="email" class=" flex-auto" placeholder="<?php echo $data->input()->text() ?>" name="ctaEmail">
-                  <button type="submit" class="ml2 btn btn--cta" disabled><?php echo $data->button()->text() ?></button>
+                <div class="input-cta js-input-cta sm-flex">
+                  <input type="email" class="flex-auto mb2 sm-mb0" placeholder="<?php echo $data->input()->text() ?>" name="ctaEmail">
+                  <button type="submit" class="sm-ml2 btn btn--cta" disabled><?php echo $data->button()->text() ?></button>
                 </div>
 
 

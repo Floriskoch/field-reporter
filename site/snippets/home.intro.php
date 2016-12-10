@@ -1,12 +1,17 @@
+<?php $covervideo = ($data->coverVideo()->toFile()) ? $data->coverVideo()->toFile()->url() : ''; ?>
 <?php $coverimage = ($data->coverimage()->toFile()) ? $data->coverimage()->toFile()->resize(1600)->url() : ''; ?>
-<section class="section--<?php echo $data->uid() ?> section--dark" id="section-intro" style="background-image: url('<?php echo $coverimage ?>')">
+<section class="section--<?php echo $data->uid() ?> section--dark" id="section-intro">
 
-  <div class="layer layer-bg xs-hide js-layer-bg" data-depth="0.00" data-type="parallax">
+  <div class="layer layer-bg js-layer-bg" data-depth="0.00" data-type="parallax" style="background-image: url('<?php echo $coverimage ?>')">
+
+    <?php if ($covervideo) { ?>
     <div class="covervid-wrapper">
       <video class="covervid-video js-covervid" autoplay muted loop poster="<?php echo $coverimage ?>">
-        <source src="assets/build/video/intro.mp4" type="video/mp4">
+        <source src="<?php echo $covervideo ?>" type="video/mp4">
       </video>
     </div>
+    <?php } ?>
+
   </div>
 
   <div class="layer layer-1 xs-hide" data-depth="0.30" data-type="parallax"></div>
